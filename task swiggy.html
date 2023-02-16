@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-swiggy</title>
+    <script src="https://code.iconify.design/iconify-icon/1.0.5/iconify-icon.min.js"></script>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width:90%;
+            margin: auto;
+        }
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .col{
+            width:25%;
+            
+        }
+        img{
+            width:100%;
+        }
+        .col-card{
+            height:400px;
+            padding: 12px;
+        }
+        .col-card:hover{
+            border-radius: 5px;
+            box-shadow: 0 0 8px #ccc;
+            padding: 15px;
+        }
+        .arjun{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin:10px 0;
+
+        }
+        .quick{
+            display:none;
+            opacity: 0;
+            visibility: hidden;
+        }
+        .col-card:hover .quick{
+           display: block;
+           opacity: 1;
+           visibility: visible;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+    </div>
+    <script src="task.js"></script>
+</body>
+</html>
